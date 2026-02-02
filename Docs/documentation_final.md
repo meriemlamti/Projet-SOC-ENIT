@@ -57,7 +57,7 @@ The infrastructure relies on the **VirtualBox** hypervisor (Type 2). It is segme
 
 Traffic between these two zones is strictly controlled by the **OPNsense** virtual machine, which acts as the default gateway and perimeter firewall.
 
-![Global network architecture and communication flows](topologie_reseau.png)
+![Global network architecture and communication flows](image/topologie_reseau.png)
 > *Figure 2.1 – Global network architecture and communication flows.*
 
 ## 2.2 Virtual Machine Hardware Specifications
@@ -111,7 +111,7 @@ The firewall is the critical node connecting the WAN and LAN.
     * `em1` (LAN) $\rightarrow$ Assigned to the adapter in **Internal Network** mode.
 3.  **IP Configuration:** We statically assigned the LAN IP to `192.168.10.1` and validated the assignment in the console.
 
-![OPNsense Interface Configuration](wan%20et%20lan%20configuré.jpg)
+![OPNsense Interface Configuration](image/wan%20et%20lan%20configuré.jpg)
 > *Figure 3.1 – OPNsense console showing correct WAN and LAN IP assignments.*
 
 ### B. Domain Controller (SRV-DC-01)
@@ -145,7 +145,7 @@ To conclude Phase 1, we performed connectivity tests to validate the architectur
 
 
 
-![Ping from Client to DC](ping%20192.168.10.10.jpg)
+![Ping from Client to DC](image/ping%20192.168.10.10.jpg)
 > *Figure 3.2 – Successful ping from Client to the Server IP.*
 
 ---
@@ -156,7 +156,7 @@ To conclude Phase 1, we performed connectivity tests to validate the architectur
 * **Destination:** `192.168.10.1`
 * **Result:** Successful.
 
-![Ping from Server to Gateway](ping%20win%20serveur%20au%20opnsense.jpg)
+![Ping from Server to Gateway](image/ping%20win%20serveur%20au%20opnsense.jpg)
 > *Figure 3.3 – Server successfully reaching the Default Gateway.*
 
 ---
@@ -167,10 +167,10 @@ To conclude Phase 1, we performed connectivity tests to validate the architectur
 * **Destination:** `google.com` / `8.8.8.8`
 * **Result:** Successful.
 
-![Ping Google from Firewall](ping%20google.com.jpg)
+![Ping Google from Firewall](image/ping%20google.com.jpg)
 > *Figure 3.4 – OPNsense verifying WAN connectivity.*
 
-![Ping Google from Client](ping%20google%20depuis%20le%20pc.jpg)
+![Ping Google from Client](image/ping%20google%20depuis%20le%20pc.jpg)
 > *Figure 3.5 – Client workstation successfully accessing the Internet via NAT.*
 ---
 # 4. Phase 2 Implementation: Core AD & Services
@@ -997,3 +997,4 @@ The design and implementation of this infrastructure relied on a combination of 
 
 * **[8] Client Deployment.** "Windows 10 ISO Setup & Installation," *YouTube*.
   * URL: [https://www.youtube.com/watch?v=K-8wW_QRORI](https://www.youtube.com/watch?v=K-8wW_QRORI)
+
