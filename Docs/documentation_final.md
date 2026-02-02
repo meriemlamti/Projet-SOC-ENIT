@@ -1,7 +1,7 @@
 # 1. Fundamental Concepts of Active Directory
 
 ## 1.1 What is Active Directory (AD)?
-Active Directory (AD) is a directory service developed by Microsoft for Windows network environments. It is a distributed, hierarchical structure that allows for the centralized management of an organization's resources, including users, computers, groups, network devices, file shares, and policies.
+Active Directory (AD) is a directory service developed by Microsoft for Windows network environments. It is a distributed, hierarchical structure that allows for the centralized management of an organization's resources, including users, computers, groups, network devices, file shares, and policies
 
 **Why is it Critical?**
 * **Centralization:** It provides authentication and authorization functions within a Windows domain.
@@ -997,4 +997,5 @@ The design and implementation of this infrastructure relied on a combination of 
 
 * **[8] Client Deployment.** "Windows 10 ISO Setup & Installation," *YouTube*.
   * URL: [https://www.youtube.com/watch?v=K-8wW_QRORI](https://www.youtube.com/watch?v=K-8wW_QRORI)
+
 
