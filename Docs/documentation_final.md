@@ -82,7 +82,7 @@ To ensure consistent and scalable network management, a static addressing plan h
 | :--- | :--- | :--- | :--- |
 | **FW-OPN-01** | Gateway / Firewall | `192.168.10.1` | Default Gateway for the LAN. |
 | **SRV-DC-01** | Domain Controller | `192.168.10.10` | Primary DNS and Auth Server. |
-| **CLT-W10** | Client Workstation | `192.168.10.10` | Simulates end-user activity. |
+| **CLT-W10** | Client Workstation | `192.168.10.100` | Simulates end-user activity. |
 ---
 # 3. Phase 1 Implementation: Setup and Connectivity
 
@@ -997,5 +997,6 @@ The design and implementation of this infrastructure relied on a combination of 
 
 * **[8] Client Deployment.** "Windows 10 ISO Setup & Installation," *YouTube*.
   * URL: [https://www.youtube.com/watch?v=K-8wW_QRORI](https://www.youtube.com/watch?v=K-8wW_QRORI)
+
 
 
